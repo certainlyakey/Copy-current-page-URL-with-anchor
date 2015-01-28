@@ -2,4 +2,4 @@ Firefox extension that allows to right click on an element and copy the page URL
 
 If you click on an element which doesn't have ID attribute it still will let you copy an anchored link of a parent section which does have ID.
 
-Will work starting from Firefox 35.
+Will work starting from Firefox 35. Compiled version may be downloaded from AMO: https://addons.mozilla.org/en-US/firefox/addon/copy-with-anchor/

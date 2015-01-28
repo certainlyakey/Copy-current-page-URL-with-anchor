@@ -6,6 +6,7 @@ self.on("context", function (node,d) {
 	var anchor = node;
 	var ancestor = anchor.closest('[id]'); 
 	var ancestorID = ancestor.id;
+	ancestorID = ancestorID.replace(/_/g,' ');
 	if (ancestorID.length > 20) {
 		ancestorID = ancestorID.substr(0, 20) + "...";
 	}
