@@ -1,9 +1,0 @@
-{
-  "name": "copy-with-anchor",
-  "title": "Copy Current Page URL with Anchor",
-  "id": "jid1-grAPHQfoBoWMdA",
-  "description": "Firefox extension that allows to right click an element and copy the page URL with its ID, thus retaining an anchor. Useful if you want to keep a link to specific section of a webpage.",
-  "author": "Alexander Belyaev",
-  "license": "MPL 2.0",
-  "version": "0.21"
-}
