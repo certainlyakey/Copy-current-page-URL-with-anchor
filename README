@@ -1,5 +1,10 @@
-Firefox extension that allows to right click on an element and copy the page URL with its ID, thus retaining an anchor. Useful if you want to keep a link to specific section of a webpage. 
+Firefox extension that allows to right-click on an element and copy
+the page URL with the element's ID, thus retaining an anchor. Useful
+when you want to keep a link to specific section of a webpage.
 
-If you click on an element which doesn't have ID attribute it still will let you copy an anchored link of a parent section which does have ID.
+If you click on an element which doesn't have ID attribute it will still
+let you copy an anchored link of the parent section which does have it.
 
-Will work starting from Firefox 35. Compiled version may be downloaded from AMO: https://addons.mozilla.org/en-US/firefox/addon/copy-with-anchor/
+Works with Firefox 45+. May or may not work with other browsers.
+Compiled version can be downloaded from AMO:
+https://addons.mozilla.org/en-US/firefox/addon/copy-with-anchor/
