@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Copy Current Page URL with Anchor",
+  "short_name": "Copy Location With Anchor",
+  "description": "Copy a link to a specific section of a web page by linking to the section's anchor (URL fragment).",
+  "version": "1.0",
+
+  "author": "Alexander Belyaev",
+  "homepage_url": "https://github.com/certainlyakey/Copy-current-page-URL-with-anchor",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
