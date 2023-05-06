@@ -2,7 +2,7 @@ var anchor_url = '';
 
 browser.contextMenus.create({
     "id": "copy-with-ref",
-    "title": "",
+    "title": "Copy anchor link",
     "visible": false,
     "contexts": ["image", "link", "page"],
     "onclick": (info, tab) => {
