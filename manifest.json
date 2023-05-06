@@ -9,10 +9,14 @@
   "author": "Alexander Belyaev",
   "homepage_url": "https://github.com/certainlyakey/Copy-current-page-URL-with-anchor",
 
+  "background": {
+    "scripts": ["background.js"]
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "permissions": ["contextMenus", "clipboardWrite"]
 }
