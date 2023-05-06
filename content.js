@@ -1,3 +1,7 @@
+if (typeof browser === "undefined") {
+    var browser = chrome;
+}
+
 document.body.addEventListener('mousedown', (event) => {
     if (event.button != 2)
         return;

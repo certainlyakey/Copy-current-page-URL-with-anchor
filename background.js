@@ -1,5 +1,9 @@
 var anchor_url = '';
 
+if (typeof browser === "undefined") {
+    var browser = chrome;
+}
+
 browser.contextMenus.create({
     "id": "copy-with-ref",
     "title": "Copy anchor link",
