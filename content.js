@@ -37,7 +37,7 @@ for (const el of document.querySelectorAll('a[name] + *')) {
 }
 for (const el of document.querySelectorAll('a[id] + *')) {
     var a = el.previousSibling;
-    while (a && !a.name) a = a.previousSibling;  // skip empty/text nodes
+    while (a && !a.id) a = a.previousSibling;  // skip empty/text nodes
     install_right_click_handler(el, a.id);
 }
 
